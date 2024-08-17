@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "1774",
+      "name": "CSPM Executive Dashboard",
+      "buttons": [
+        {
+          "text": "Widget1",
+          "image": "https://cdn1.iconfinder.com/data/icons/miscellaneous-4/32/dashboard-medium-1024.png"
+        },
+        {
+          "text": "Widget2",
+          "image": "https://storage.googleapis.com/blogs-images/ciscoblogs/1/2021/10/Predictive-analytics-2.png"
+        }
+      ]
+    },
+    {
+      "id": "785f",
+      "name": "CWPP Dashboard",
+      "buttons": [
+        {
+          "text": "Widget1",
+          "image": ""
+        },
+        {
+          "text": "Widget2",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "05d1",
+      "name": "Registry Scan",
+      "buttons": [
+        {
+          "text": "Widget1",
+          "image": ""
+        },
+        {
+          "text": "Widget2",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
