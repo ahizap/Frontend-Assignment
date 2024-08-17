@@ -4,7 +4,7 @@ This project is a React-based dashboard application that allows users to manage 
 
 ## Installation
 
-Install locally 
+To install locally run 
 
 ```bash
   git clone https://github.com/ahizap/Frontend-Assignment.git
@@ -15,4 +15,9 @@ Install locally
   npm run server // This will run json server on localhost:30001
   npm start
 ```
-    
+
+# Deployment
+
+This app is also deployed to vercel for quick access
+
+https://dashboard-vercel-six.vercel.app/
