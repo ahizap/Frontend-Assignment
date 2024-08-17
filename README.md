@@ -16,7 +16,7 @@ To install locally run
   npm start
 ```
 
-# Deployment
+## Deployment
 
 This app is also deployed to vercel for quick access
 
