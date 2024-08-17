@@ -21,9 +21,7 @@ const Dashboard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(
-        "https://json-server-vercel-umber-gamma.vercel.app/categories"
-      );
+      const response = await fetch("http://localhost:3001/categories");
       const data = await response.json();
       setCategories(data);
     } catch (error) {
@@ -56,14 +54,11 @@ const Dashboard = () => {
           name: newButton.category,
           buttons: [{ text: newButton.text, image: newButton.image }],
         };
-        const response = await fetch(
-          "https://json-server-vercel-umber-gamma.vercel.app/categories",
-          {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(newCategory),
-          }
-        );
+        const response = await fetch("http://localhost:3001/categories", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newCategory),
+        });
         if (response.ok) {
           fetchData();
         }
@@ -76,7 +71,7 @@ const Dashboard = () => {
           ],
         };
         const response = await fetch(
-          `https://json-server-vercel-umber-gamma.vercel.app/categories/${categories[categoryIndex].id}`,
+          `http://localhost:3001/categories/${categories[categoryIndex].id}`,
           {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
@@ -100,14 +95,11 @@ const Dashboard = () => {
       return;
     }
     try {
-      const response = await fetch(
-        "https://json-server-vercel-umber-gamma.vercel.app/categories",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ name: newCategory, buttons: [] }),
-        }
-      );
+      const response = await fetch("http://localhost:3001/categories", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: newCategory, buttons: [] }),
+      });
       if (response.ok) {
         fetchData();
         setNewCategory("");
@@ -125,7 +117,7 @@ const Dashboard = () => {
         (_, index) => index !== buttonIndex
       );
       const response = await fetch(
-        `https://json-server-vercel-umber-gamma.vercel.app/categories/${categoryId}`,
+        `http://localhost:3001/categories/${categoryId}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
