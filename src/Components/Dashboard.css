@@ -10,7 +10,7 @@
 }
 
 .add-button {
-  background-color: #4caf50;
+  background-color: #009688;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -104,7 +104,7 @@
 .overlay-content add-button {
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: #009688;
   color: white;
   border: none;
   cursor: pointer;
@@ -148,7 +148,7 @@
 }
 
 .add-button {
-  background-color: #4caf50;
+  background-color: #009688;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -168,7 +168,7 @@
 }
 
 .add-button-overlay {
-  background-color: #4caf50;
+  background-color: #009688;
   border: none;
   color: white;
   padding: 10px 20px;
