@@ -12,7 +12,7 @@ To install locally run
   npm install
   npm install -g json-server
   cd my-project
-  npm run server // This will run json server on localhost:30001
+  npm run server // This will run json server on localhost:3001
   npm start
 ```
 
