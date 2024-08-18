@@ -20,11 +20,11 @@
       "buttons": [
         {
           "text": "Widget1",
-          "image": ""
+          "image": "https://cdn4.iconfinder.com/data/icons/reports-and-analytics-2/512/89-512.png"
         },
         {
           "text": "Widget2",
-          "image": ""
+          "image": "https://komunigrafik.com/assets/all/img/showcase/zohobis/icon-hr-dashboard.png"
         }
       ]
     },
@@ -34,11 +34,11 @@
       "buttons": [
         {
           "text": "Widget1",
-          "image": ""
+          "image": "https://avatars.mds.yandex.net/i?id=3ed63176091581ae161646356c703daf9e0cf63c-9245612-images-thumbs&n=13"
         },
         {
           "text": "Widget2",
-          "image": ""
+          "image": "https://avatars.mds.yandex.net/i?id=d17e35a4e1d74e0a55342b45280fba50ab61fdd6-10146075-images-thumbs&ref=rim&n=33&w=347&h=200"
         }
       ]
     }
