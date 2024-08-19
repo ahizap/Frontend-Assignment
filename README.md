@@ -11,7 +11,6 @@ To install locally run
   cd Frontend-Assignment
   npm install
   npm install -g json-server
-  cd my-project
   npm run server // This will run json server on localhost:3001
   npm start
 ```
